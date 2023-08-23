@@ -1,0 +1,17 @@
+## 通用短信
+ha-sms:
+  ## 腾讯云短信
+  tencent:
+    app-id:  #短信应用 ID
+    secret-id:  #腾讯云账户密钥对 secretId
+    secret-key:  #腾讯云账户密钥对 secretKey
+    sign:  #短信签名内容
+    enable: false #是否启用
+  ## 阿里云短信
+  ali:
+    product: Dysmsapi #短信API产品名称
+    domain: dysmsapi.aliyuncs.com #短信API产品域名
+    access-key-id:  #你的accessKeyId
+    access-key-secret:  #你的accessKeySecret
+    sign-name:  #短信签名-可在短信控制台中找到
+    enable: false #是否启用
