@@ -1,4 +1,4 @@
-package com.yd.sms.bean;
+package com.ha.sms.bean;
 
 /**
  * 发送Response

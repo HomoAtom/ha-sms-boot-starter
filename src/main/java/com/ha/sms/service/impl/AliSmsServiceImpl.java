@@ -1,4 +1,4 @@
-package com.yd.sms.service.impl;
+package com.ha.sms.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.bean.copier.CopyOptions;
@@ -9,9 +9,9 @@ import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
-import com.yd.sms.autoconfigure.AliSmsProperties;
-import com.yd.sms.bean.SendResponse;
-import com.yd.sms.service.AliSmsService;
+import com.ha.sms.autoconfigure.AliSmsProperties;
+import com.ha.sms.bean.SendResponse;
+import com.ha.sms.service.AliSmsService;
 
 /**
  * 阿里云短信service

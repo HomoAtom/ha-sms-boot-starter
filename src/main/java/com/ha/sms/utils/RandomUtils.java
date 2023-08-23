@@ -1,4 +1,4 @@
-package com.yd.sms.utils;
+package com.ha.sms.utils;
 
 /**
  * 随机数工具类

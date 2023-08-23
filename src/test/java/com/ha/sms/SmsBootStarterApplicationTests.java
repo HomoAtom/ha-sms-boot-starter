@@ -1,10 +1,10 @@
-package com.yd.sms;
+package com.ha.sms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class YdSmsBootStarterApplicationTests {
+class SmsBootStarterApplicationTests {
 
     @Test
     void contextLoads() {

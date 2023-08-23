@@ -1,4 +1,4 @@
-package com.yd.sms.service;
+package com.ha.sms.service;
 
 /**
  * 腾讯云短信service

@@ -1,13 +1,13 @@
-package com.yd.sms.autoconfigure;
+package com.ha.sms.autoconfigure;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.bean.copier.CopyOptions;
 import cn.hutool.core.util.ReflectUtil;
 import com.aliyuncs.exceptions.ClientException;
-import com.yd.sms.service.AliSmsService;
-import com.yd.sms.service.TencentSmsService;
-import com.yd.sms.service.impl.AliSmsServiceImpl;
-import com.yd.sms.service.impl.TencentSmsServiceImpl;
+import com.ha.sms.service.AliSmsService;
+import com.ha.sms.service.TencentSmsService;
+import com.ha.sms.service.impl.AliSmsServiceImpl;
+import com.ha.sms.service.impl.TencentSmsServiceImpl;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

@@ -1,4 +1,4 @@
-package com.yd.sms.service.impl;
+package com.ha.sms.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.bean.copier.CopyOptions;
@@ -7,9 +7,9 @@ import com.tencentcloudapi.sms.v20190711.SmsClient;
 import com.tencentcloudapi.sms.v20190711.models.SendSmsRequest;
 import com.tencentcloudapi.sms.v20190711.models.SendSmsResponse;
 import com.tencentcloudapi.sms.v20190711.models.SendStatus;
-import com.yd.sms.autoconfigure.TencentSmsProperties;
-import com.yd.sms.bean.SendResponse;
-import com.yd.sms.service.TencentSmsService;
+import com.ha.sms.autoconfigure.TencentSmsProperties;
+import com.ha.sms.bean.SendResponse;
+import com.ha.sms.service.TencentSmsService;
 
 /**
  * 腾讯云短信service

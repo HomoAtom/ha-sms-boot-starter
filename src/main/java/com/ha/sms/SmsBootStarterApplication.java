@@ -1,4 +1,4 @@
-package com.yd.sms;
+package com.ha.sms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.yd.sms.service;
+package com.ha.sms.service;
 
 /**
  * 阿里云短信service

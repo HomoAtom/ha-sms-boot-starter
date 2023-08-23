@@ -1,4 +1,4 @@
-package com.yd.sms.autoconfigure;
+package com.ha.sms.autoconfigure;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
